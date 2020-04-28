@@ -10,7 +10,7 @@ body{
   height: 50px;
     background-color: grey;
     color: pink;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Merriweather', serif;
   }
   img{
     float: right;
@@ -19,13 +19,13 @@ body{
   }
   h2 {
     color: grey;
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
     text-decoration: underline;
   }
   ul li{
     color: green;
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 10px;
     padding: 5px;
   }
