@@ -1,0 +1,87 @@
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Merriweather',     serif;
+    font-size: 30px;
+    background-color: #96ceb4;
+    padding: 20px;
+    height: auto;
+}
+.name{
+    text-align: center;
+    font-family: 'Merriweather',     serif;
+  
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1.0rem;
+    color: black;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+main section h2 {
+	color: black;
+    background-color:#ffcc5c;
+    padding: 20px;
+    height: auto;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #ffeead;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.rem;
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+}
