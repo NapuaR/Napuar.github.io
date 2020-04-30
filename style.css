@@ -8,36 +8,42 @@ body{
   padding: 20px;
   width: 370px;
   height: 50px;
-    background-color: grey;
+    background-color: #008080;
     color: pink;
     font-family: 'Merriweather', serif;
+    font-size: 30px;
   }
   img{
     float: right;
     width: 150px;
     box-shadow: 5px 10px 18px #888888;
+    margin-top: 100px;
   }
   h2 {
     color: grey;
     font-family: 'Manrope', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: underline;
   }
   ul li{
-    color: green;
+    color: #666666;
     font-family: 'Manrope', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     padding: 5px;
   }
   a:active {
     color: pink;
   }
+a:hover{
+  color:hotpink;
+}
   footer {
      border-radius: 25px;
   padding: 20px;
   width: 370px;
   height: 50px;
-    background-color: grey;
-    color: pink;
+    background-color: #008080;
+    color:pink;
     font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
   }
