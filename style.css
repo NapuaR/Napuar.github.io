@@ -1,13 +1,13 @@
 body{
-  width: 400px;
-  padding: 30px;
-  margin: 3px; 
+    width: 400px;
+    padding: 30px;
+    margin: 3px; 
   }
   h1 {
-     border-radius: 25px;
-  padding: 20px;
-  width: 370px;
-  height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 370px;
+    height: 50px;
     background-color: #008080;
     color: pink;
     font-family: 'Merriweather', serif;
@@ -35,15 +35,16 @@ body{
     color: pink;
   }
 a:hover{
-  color:hotpink;
+    color:hotpink;
 }
   footer {
-     border-radius: 25px;
-  padding: 20px;
-  width: 370px;
-  height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 370px;
+    height: 50px;
     background-color: #008080;
     color:pink;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
+    text-align: center;
   }
