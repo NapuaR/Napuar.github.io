@@ -1,9 +1,7 @@
-@media only screen and (min width: 32.5em){
-body{
-    width: 400px;
-    padding: 30px;
-    margin: 3px; 
-  }
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
   h1 {
     border-radius: 25px;
     padding: 20px;
@@ -26,11 +24,11 @@ body{
     text-decoration: underline;
   }
   ul li{
-    color: #666666;
-    font-family: 'Manrope', sans-serif;
-    font-size: 15px;
+    color: dark grey;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 12px;
     padding: 5px;
-  }
+}
   a:active {
     color: pink;
   }
@@ -48,4 +46,3 @@ a:hover{
     font-size: 15px;
     text-align: center;
   }
-}

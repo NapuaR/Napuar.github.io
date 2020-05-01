@@ -1,7 +1,11 @@
 @media only screen and (min width: 32.5em) {
+    body {
+        font-size: 32px;
+        font-family: "Sansita", Ubuntu, sans-serif;
+    }
     h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 40px;
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
     }
     img{
         float: right;
@@ -12,9 +16,15 @@
       }
 
   h2 {
-    color: grey;
-    font-family: 'Manrope', sans-serif;
-    font-size: 24px;
-    text-decoration: underline;
+       color: grey;
+       font-family: 'Manrope', sans-serif;
+       font-size: 24px;
+       text-decoration: underline;
   }
+  ul li{
+    color: dark grey;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 30px;
+    padding: 5px;
+}
 }
