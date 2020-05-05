@@ -51,6 +51,14 @@ main section:nth-child(2) {
 .colimage {
 	box-shadow: 0 0 30px #333;
 }
+footer{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #96ceb4;
+    padding: 20px;
+    height: auto;
+    
+  }
 
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
@@ -70,7 +78,7 @@ main section:nth-child(2) {
 		display: block;
 	}
 	main section picture img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
 	}
