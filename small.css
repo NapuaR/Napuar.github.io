@@ -1,0 +1,48 @@
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+  h1 {
+    border-radius: 25px;
+    padding: 20px;
+    width: 370px;
+    height: 50px;
+    background-color: #008080;
+    color: pink;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+  }
+  img{
+    width: 150px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 100px;
+  }
+  h2 {
+    color: grey;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  ul li{
+    color: dark grey;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 12px;
+    padding: 5px;
+}
+  a:active {
+    color: pink;
+  }
+a:hover{
+    color:hotpink;
+}
+  footer {
+    border-radius: 25px;
+    padding: 20px;
+    width: 370px;
+    height: 50px;
+    background-color: #008080;
+    color:pink;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-align: center;
+  }
