@@ -1,4 +1,34 @@
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Hind', sans-serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Raleway', sans-serif;
+h1{
+    font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  color: #0095b6;
+     border-radius: 25px;
+     padding: 20px;
+     max-width: 100%;
+     height: 50px;
+    background-color: #c6c386;
+}
+h2, h3{
+    font-family: 'Raleway', sans-serif;
+     color:#0892d0;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+img{
+        float: none;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 5px 10px 18px #888888;
+        margin-top: 100px;
+}
+footer{font-family: 'Fjalla One', sans-serif;
+    color: #00000;
+    font size: 20px;
+    border-radius: 25px;
+       padding: 20px;
+       max-width: 100%;
+       height: 50px;
+      background-color: #c6c386;
+    }
