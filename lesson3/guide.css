@@ -1,3 +1,4 @@
+@media only screen and (min width: 32.5em) {
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 40px;
@@ -13,22 +14,23 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   color: #0892d0;
+  font-size: 20px;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
   color: #0892d0;
+  font-size: 20px;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 23px;
   margin-right: 100px;
   margin-left: 20px;
 }
 
 img {
-  float: none;
   max-width: 100%;
   height: auto;
   box-shadow: 5px 10px 18px #888888;
