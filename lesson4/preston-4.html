@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lesson4/css/large.css">
+    <link rel="stylesheet" href="/lesson4/css/medium.css">
+    <link rel="stylesheet" href="/lesson4/css/small.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="/lesson4/css/colorweather.css">
     <title>Weather to us All</title>
@@ -15,21 +18,19 @@
   </div>
     </h1>
 </header>
-    <main>
-        <section>
-            <nav>
-                <ul class="navigate">
-                    <li><a class ="ham" href="#">&#9776; Menu</a></li>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
                     <li><a href="#">Preston Idaho</a></li>
+                    <li><a href="#">5 Day Weather</a></li>
                     <li><a href="#">Worldwide Weather</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
-          </nav>
-        </section>
-<h2>Preston Idaho</h2>
-            <div class="box">Weather summary/hero image</div>
-            <div class="box">Article Title/article image</div>
-            <div class="box">Contact information/map</div>
+             </ul>
+       </nav>
+    <main><h2>Preston Idaho</h2>
+      <div class="box">Weather summary/hero image</div>
+      <div class="box">Article Title/article image</div>
+      <div class="box">Contact information/map</div>
     </main>
 <footer>
 <div class="bottom">
