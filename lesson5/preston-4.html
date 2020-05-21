@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="/lesson4/css/normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="/lesson4/css/small.css">
   <link rel="stylesheet" href="/lesson4/css/medium.css">
   <link rel="stylesheet" href="/lesson4/css/large.css">
@@ -20,9 +20,8 @@
   </h1>
 </header>
 <nav>
-	<ul class="navigation">
-		<li><a class="ham" href="#">&#9776; Menu</a></li>
-		<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+  <button onclick="toggleMenu()">&#9776;</button>
+  <ul id="primaryNav" class="hide">
     <li><a href="#">Home</a></li>
     <li><a href="#">Preston</a></li>
     <li><a href="#">Soda Springs</a></li>
