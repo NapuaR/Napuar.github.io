@@ -20,6 +20,7 @@ nav ul li a{
 }
 .navigation {
     display: flex;
+    padding: 0;
 }
 .navigation li {
     display: block; /* change state in small view */
