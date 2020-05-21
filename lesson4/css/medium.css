@@ -34,5 +34,8 @@ nav ul li a{
 .navigation li:first-child {
     display: none;
 }
+footer{
+    text-align: center;
+}
 }
  /*end medium */

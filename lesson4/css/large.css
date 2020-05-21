@@ -6,5 +6,8 @@
     nav ul li a{
         padding: .6rem 1rem;
     }
+    footer{
+        text-align: center;
+    }
 
 } /*end large */
