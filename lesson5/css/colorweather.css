@@ -81,6 +81,21 @@ body{
     color: #0892d0;
     font-size: 14px;
   }
+  .column {
+    font-family: 'Raleway', sans-serif;
+    color: #0892d0;
+    float: left;
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  /* Clear floats after the columns */
+  .5day:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   p{
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
