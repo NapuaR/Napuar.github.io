@@ -68,6 +68,7 @@ body{
   position: absolute;
   left: 50px;
   padding: 10px;
+  top: 15px;
    }
   h3{
   text-justify: inter-word;
@@ -84,14 +85,12 @@ body{
   .column {
     font-family: 'Raleway', sans-serif;
     color: #0892d0;
-    float: left;
-    width: 25%;
     border-style: solid;
     border-color: black;
   }
   
   /* Clear floats after the columns */
-  .5day:after {
+  .fiveday:after {
     content: "";
     display: table;
     clear: both;
@@ -99,15 +98,14 @@ body{
   p{
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    margin-left: 0px;
-    white-space: pre;
+    margin-left: 20px;
+    padding: 20px;
    display: flex;  
-    flex-wrap: wrap;
   }
   img{
     max-width: 100%;
     height: auto;
-    padding: 0 20px 0;
+    padding:20px;
   }
   .left{
     float: left;
