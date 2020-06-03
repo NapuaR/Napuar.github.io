@@ -1,4 +1,4 @@
-.images{
+picture{
     display: grid;
     grid-template-columns: auto;
     padding-top: 20px;
@@ -8,3 +8,28 @@
     text-align: center;
     text-decoration: underline;
   }
+  .one{
+    filter: blur(0.2em);
+     filter: blur(0em);
+    transition: filter 0.5s;
+      }
+  .two{
+     filter: blur(0.2em);
+     filter: blur(0em);
+    transition: filter 0.5s;
+          }
+ .three {
+ filter: blur(0.2em);
+  filter: blur(0em);
+ transition: filter 0.5s;
+              }
+ .four{
+ filter: blur(0.2em);
+ filter: blur(0em);
+transition: filter 0.5s;
+ }
+ .five{
+    filter: blur(0.2em);
+    filter: blur(0em);
+   transition: filter 0.5s;
+ }
