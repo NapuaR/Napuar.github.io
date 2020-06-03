@@ -1,0 +1,10 @@
+.images{
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  h1{
+    text-align: center;
+    text-decoration: underline;
+  }
