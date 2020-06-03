@@ -13,11 +13,6 @@ picture{
      filter: blur(0em);
     transition: filter 0.5s;
       }
-  .two{
-     filter: blur(0.2em);
-     filter: blur(0em);
-    transition: filter 0.5s;
-          }
  .three {
  filter: blur(0.2em);
   filter: blur(0em);
