@@ -1,0 +1,21 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+    .column{
+        column-count: 3;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        padding: 40px;
+      }
+      picture{
+        display: block;
+      }
+      p{
+        font-family: 'Raleway', sans-serif;
+          font-size: 17px;
+          margin-left: 20px;
+
+} 
+}/*end large */
