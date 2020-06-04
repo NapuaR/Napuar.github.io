@@ -6,9 +6,8 @@ function preloadImage(img){
     return;
   }
   img.src = src;
+  img.removeAttribute('data-src');
 }
-img.removeAttribute('data-src');
-
 const imgOption = {
   threshold: 0,
   rootMargin: "0px 0px 300px 0px"
