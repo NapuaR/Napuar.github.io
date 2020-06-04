@@ -7,6 +7,7 @@ function preloadImage(img){
   }
   img.src = src;
 }
+img.removeAttribute('data-src');
 
 const imgOption = {
   threshold: 0,

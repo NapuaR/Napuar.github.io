@@ -8,26 +8,10 @@ picture{
     text-align: center;
     text-decoration: underline;
   }
-  .one{
-    display: grid;
-    grid-template-columns: auto;
-    padding-top: 20px;
-    justify-content: center;
-  }
- .three {
-  display: grid;
-  grid-template-columns: auto;
-  padding-top: 20px;
-  justify-content: center;
-}
-  
- .four{
- filter: blur(0.2em);
- filter: blur(0em);
-transition: filter 0.5s;
- }
- .five{
+ picture img[data-src]{
     filter: blur(0.2em);
-    filter: blur(0em);
-   transition: filter 0.5s;
+ }
+ picture img{
+   filter: blur(0em);
+   transition: filter 2.0s;
  }
