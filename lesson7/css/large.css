@@ -3,19 +3,18 @@
     nav ul li a{
         padding: .6rem 1rem;
     }
-    .column{
-        column-count: 3;
-        display: grid;
-        grid-template-columns: 500px 500px;
-        padding: 40px;
-      }
-      picture{
-        display: block;
-      }
+  }
+  .gallery{
+    column-count: 3;
+    column-gap: 200px;
+  }
+  picture{
+    max-width: 300px;
+  }
       p{
         font-family: 'Raleway', sans-serif;
           font-size: 17px;
           margin-left: 20px;
 
 } 
-}/*end large */
+/*end large */

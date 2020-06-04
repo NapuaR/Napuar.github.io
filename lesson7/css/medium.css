@@ -18,5 +18,17 @@
         border-right: 1px solid rgba(0,0,0.3);
         padding: .8rem 1rem;
     }
+}
+.gallery{
+  column-count: 3;
+  column-gap: 200px;
+}
+picture{ display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;}
+picture a:hover{
+        box-shadow: 1px 1px 0 #111;
+        opacity: .8;
+      }
     }
      /*end medium */
