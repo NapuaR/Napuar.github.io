@@ -4,18 +4,13 @@
         padding: .6rem 1rem;
     }
   }
-  .grid{
-    column-count: 3;
-    column-gap: 200px;
-  }
-  picture{
+  figure{
     max-width: 300px;
   }
-  picture:hover
-   {box-shadow: 0 0 50px #333;
+  figure:hover{
+    box-shadow: 0 0 50px #333;
     border-radius: 5px 150px;
     opacity: .5;
-  
   }
  p{
   font-family: 'Raleway', sans-serif;

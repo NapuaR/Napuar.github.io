@@ -62,18 +62,18 @@
     font-size: 20px;
     padding: 20px;
   }
-  picture{
-    max-width: 100%;
-  }
   p{
     font-family: 'Raleway', sans-serif;
       font-size: 17px;
       text-align: center;
   }
-  picture img[data-src]{
+  figure{
+    
+  }
+  figure img[data-src]{
     filter: blur(0.2em);
  }
- picture img{
+ figure img{
    filter: blur(0em);
    transition: filter 2.0s;
  }
