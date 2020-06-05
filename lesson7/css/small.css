@@ -55,14 +55,13 @@ nav ul li a:hover{
 nav ul.hide{
     display: none;
 }
-  picture a:hover{
-    box-shadow: 1px 1px 0 #111;
-    opacity: .8;
-  }
   .gallery{
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+  }
+  picture{
+    border-radius: 5px 150px;
   }
   p{
     font-family: 'Raleway', sans-serif;

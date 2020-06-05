@@ -11,10 +11,17 @@
   picture{
     max-width: 300px;
   }
+  picture:hover
+   {box-shadow: 0 0 50px #333;
+    border-radius: 5px 150px;
+    opacity: .5;
+  
+  }
       p{
         font-family: 'Raleway', sans-serif;
           font-size: 17px;
           margin-left: 20px;
+          box-shadow: 0 0 50px #333;
 
 } 
 /*end large */
