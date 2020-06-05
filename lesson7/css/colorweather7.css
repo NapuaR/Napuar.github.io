@@ -8,6 +8,10 @@
    text-shadow: 2px 2px 5px grey;
    background-color:#c6c386;
   }
+  img{
+    background-color:#c6c386;
+    max-width: 100%;
+  }
   #pete{ 
   font-family: 'Fjalla One', sans-serif; 
   font-size:20px; 
@@ -58,10 +62,6 @@
     font-size: 20px;
     padding: 20px;
   }
-  .gallery{
-    column-count: 3;
-    column-gap: 500px;
-  }
   picture{
     max-width: 100%;
   }
@@ -70,7 +70,13 @@
       font-size: 17px;
       text-align: center;
   }
-  /* Clear floats after the columns */
+  picture img[data-src]{
+    filter: blur(0.2em);
+ }
+ picture img{
+   filter: blur(0em);
+   transition: filter 2.0s;
+ }
   .bottom{
     font-size: 12px;
     text-align: center;

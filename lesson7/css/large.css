@@ -4,7 +4,7 @@
         padding: .6rem 1rem;
     }
   }
-  .gallery{
+  .grid{
     column-count: 3;
     column-gap: 200px;
   }
@@ -17,11 +17,11 @@
     opacity: .5;
   
   }
-      p{
-        font-family: 'Raleway', sans-serif;
-          font-size: 17px;
-          margin-left: 20px;
-          box-shadow: 0 0 50px #333;
+ p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  margin-left: 20px;
+  box-shadow: 0 0 50px #333;
 
 } 
 /*end large */

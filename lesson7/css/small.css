@@ -55,11 +55,10 @@ nav ul li a:hover{
 nav ul.hide{
     display: none;
 }
-  .gallery{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
+.gallery{
+  display: grid;
+  gap: 100px;
+}
   picture{
     border-radius: 5px 150px;
   }
@@ -75,6 +74,6 @@ nav ul.hide{
     display: table;
     clear: both;
   }
-
+  
 
 
