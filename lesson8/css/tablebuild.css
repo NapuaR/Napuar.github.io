@@ -1,0 +1,14 @@
+h2, .foot{
+    background-color: #7fb9c2;
+  }
+  .title{
+    background-color: #628ca6;
+    color: white;
+  }
+  .row1,.row3,.row5{
+    background-color:#e7f0ed;
+  }
+  .row2, .row4, .row6{
+    background-color:#e7ffed;
+  }
+  
