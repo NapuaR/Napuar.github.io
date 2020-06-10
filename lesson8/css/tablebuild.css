@@ -1,14 +1,32 @@
-h2, .foot{
-    background-color: #7fb9c2;
-  }
-  .title{
-    background-color: #628ca6;
-    color: white;
-  }
-  .row1,.row3,.row5{
-    background-color:#e7f0ed;
-  }
-  .row2, .row4, .row6{
-    background-color:#e7ffed;
-  }
-  
+body{
+  display:grid;
+}
+table{
+  border-collapse: collapse;
+  width: 45%;
+  box-shadow: 9px 9px 5px grey;
+}
+table, th, td {
+  border: .5px solid grey;
+}
+.head, .foot{
+  background-color: #7fb9c2;
+  font-family: Ubuntu, sans-serif;
+}
+.foot{
+  font-size: 12px;
+  text-align: center;
+}
+.title, .change{
+  background-color: #628ca6;
+  color: white;
+  font-family: Ubuntu, sans-serif;
+}
+.row1,.row3,.row5{
+  background-color:#e7f0ed;
+  font-family: Ubuntu, sans-serif;
+}
+.row2, .row4, .row6{
+  background-color:#e7ffed;
+  font-family: Ubuntu, sans-serif;
+}

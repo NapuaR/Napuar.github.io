@@ -3,53 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/tablebuild.css">
-    <title>Table Format Activity</title>
+    <title>Document</title>
 </head>
 <body>
-    <table style="width: 100%;">
-        <h2>ACME Wildwest</h2>
+    <table>
         <thead>
-            <tr>
-                <th><b>Period</b></th>
-                <th><b>Sales</b></th>
-                <th><b>Sales Goal</b></th>
+          <th colspan="3"class="head"><b>ACME Wildwest</b></th>
+            <tr class="title">
+        <th><b>Period</b></th>
+        <th><b>Sales</b></th>
+        <th><b>Sales Goal</b></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="row1">
                 <td>August</td>
                 <td>$3,590</td>
                 <td>$4,000</td>
             </tr>
-            
+            <tr class="row2">
                 <td>September</td>
                 <td>$4,420</td>
                 <td>$5,000</td>
-            <tr>
+          </tr>
+            <tr class="row3">
                     <td>October</td>
                     <td>$4,870</td>
                     <td>$5,000</td>
             </tr>
-            <tr>
+            <tr class="row4">
                 <td>November</td>
                 <td>$8,610</td>
-                <td>$7,500</td>
+                <td class="change">$7,500</td>
             </tr>
             
         </tbody>
         <tfoot>
-            <tr> 
-                <td><i>Black Friday</i></td>
-                <td>$3,200</td>
+            <tr class="row5"> 
+          <td><i>Black Friday</i></td>
+                <td colspan="2">$3,200</td>
             </tr>
-            <tr>
+            <tr class="row6">
                 <td>December</td>
                 <td>$6,820</td>
-                <td>$7,500</td>
+                <div class="nov">
+<td>$7,500</td>
+              </div>
+              <tr>
+              <td colspan="3" class="foot" >Compiled 06.09.2020 by nRob</td>
+          </tr>
             </tr>
         </tfoot>
-        <p>Compiled 12.20.2020 by bRauls</p>
     </table>
       
 </body>
