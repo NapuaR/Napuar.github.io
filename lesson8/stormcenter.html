@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A page to submit weather observations">
+        <title>Weather Gallery</title>
+        <link rel="shortcut icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="css/colorweather8.css">
+        <link rel="stylesheet" href="css/normalize7.css">
+        <link rel="stylesheet" type="text/css" href="css/small.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather&display=swap" rel="stylesheet">
+      </head>
+    <header class="clearfix">
+      <img src="/lesson4/images/iconfinder_weather-05_1530388.png" alt="logo for the weather site">
+      <h1>Weather To Us All
+      </h1>
+      <div id="pete">
+        Bringing in all Kinds of Weather
+      </div> 
+    </header>
+    <nav>
+        <ul class="navigation clearfix">
+          <li><a class="ham" href="#">&#9776; Menu</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+        <script src="java/ham.js"></script>
+      </nav>
+      <main>
+          <h2>Storm Center</h2>
+          <form method="GET" action="thanks.html">
+              <fieldset>
+                  <legend>Applicant Information</legend>
+                  <label>FirstName*<input type="text" name="fname" pattern=".{5,}" title="five or more characters" required></label>
+                  <Label>LastName*<input type="text" name="lname" pattern=".{5,}" title="five or more characters" required></Label>
+                  <Label>Phone*<input type="tel" name="phone" placeholder="123-1234-1234" required></Label>
+                  <Label>Email*<input type="email" name="email" placeholder="somone@gmail.com" required></Label>
+                  <Label>Zip Code*<input type="number" name="zip code" placeholder="45678" required></Label>
+                  <Label>Storm Date*<input type="date" name="Sdate" required></Label>
+                </fieldset>
+            <fieldset>
+              <legend>Storm Type</legend>
+             <label for="storm">Choose a storm:</label>
+  <input list="storm" name="storm" id="storm">
+  <datalist id="storm">
+    <option value="Flash Flood">
+    <option value="Hail">
+    <option value="Hurricane">
+    <option value="Thunderstorm">
+    <option value="Tornado">
+    <input type="submit">
+  </datalist>
+            </fieldset>
+            <fieldset>
+              <legend>Storm Severity
+</legend>
+<label for="serverity">Range (between 0 and 10):</label>
+<input type="range" id="serverity" name="storm serverity" min="0" max="10">  
+            </fieldset>
+            <fieldset>
+              <legend>Storm Region</legend>
+  <select id="region" name="region">
+    <option value="select region">Select Region</option>
+    <option value="preston">Preston</option>
+    <option value="soda springs">Soda Springs"</option>
+    <option value="fish haven">Fish Haven</option>
+ </select>
+            </fieldset>
+                <fieldset>
+                  <legend>User in danger level</legend>
+                  <div>Yes</div>
+                  <label><input type="radio" name="user" value="Yes"></label>
+                      <div>Maybe</div>
+                          <label><input type="radio" name="user" value="Maybe"></label>
+                      <div>No</div>
+                          <label><input type="radio" name="user" value="No"></label>
+    </fieldset>
+            <fieldset>
+              <legend>Addtional Information and/or comments</legend>
+              <input type="text" name="comment" size="100">
+            </fieldset>
+                  
+               <input type="submit" value="Submit">            
+          </form>
+    </main>
+    <footer>
+        <p class="bottom">&copy; 2020 Napua Roberts | Idaho<a href=" https://www.byui.edu">BYUI Online Learning</a>
+        </p>
+        <script>
+          var date = document.lastModified;
+          document.write("Last Modified: " + date);
+        </script>
+      </footer>
+  </body>
+</html>

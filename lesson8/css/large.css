@@ -1,0 +1,22 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+  }
+  figure{
+    max-width: 300px;
+  }
+  figure:hover{
+    box-shadow: 0 0 50px #333;
+    border-radius: 5px 150px;
+    opacity: .5;
+  }
+ p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  margin-left: 20px;
+  box-shadow: 0 0 50px #333;
+
+} 
+/*end large */
