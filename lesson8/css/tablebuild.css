@@ -1,13 +1,14 @@
-body{
-  display:grid;
-}
+
 table{
   border-collapse: collapse;
-  width: 45%;
   box-shadow: 9px 9px 5px grey;
+  font-family: 'Ubuntu', sans-serif;
 }
 table, th, td {
   border: .5px solid grey;
+}
+td{
+  padding:20px;
 }
 .head, .foot{
   background-color: #7fb9c2;
