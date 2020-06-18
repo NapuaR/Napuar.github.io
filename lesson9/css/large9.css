@@ -1,0 +1,13 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    .responsive li {
+        display: block;
+    }
+    nav ul li a{
+        padding: .6rem 1rem;
+    }
+    footer{
+        text-align: center;
+    }
+
+} /*end large */
