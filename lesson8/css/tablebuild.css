@@ -13,6 +13,7 @@ td{
 .head, .foot{
   background-color: #7fb9c2;
   font-family: Ubuntu, sans-serif;
+  font-size: 35px;
 }
 .foot{
   font-size: 12px;
