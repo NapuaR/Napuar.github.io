@@ -5,7 +5,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-  });
+  
   const prophets = jsonObject['prophets'];
   for (let i = 0; i < prophets.length; i++ ) {
 
@@ -22,7 +22,10 @@ fetch(requestURL)
     image.setAttribute('alt', prophets[i].name + " " + prophets[i].lastname + prophets.indexOf(prophets[i].name + " " + prophets[i].lastname));
     
     card.appendChild(h2);
+    card.appendChild(p);
+    card.appendChild(p2);
+    card.appendChild(image);
     
     document.querySelector('div.cards').appendChild(card);
                
-         };
+  });
