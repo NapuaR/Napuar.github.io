@@ -58,9 +58,18 @@ nav ul.hide{
 .map{
     display: none;
 }
-.column{
-    display:none;
-}
+ #one {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   #two{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+   display: grid;
+  grid-template-columns: 1fr;
+ }
+    
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

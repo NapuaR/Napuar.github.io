@@ -26,7 +26,6 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
   padding: 10px;
-  min-width: 250px;
   text-align: left;
   border: 1px solid black;
   background-color: #0095b6;
@@ -36,16 +35,9 @@ body{
    color: #0892d0;
    font-size: 20px;
  }
-section {
+#one {
  display: grid;
- grid-template-columns: 1fr;
- grid-gap: 5px;
- width: 450px;
- height: auto;
- background-color: grey;
- justify-self: center;
- border-color: black;
- border-style: ridge;
+ grid-template-columns: 1fr 1fr 1fr;
 }
  
  p {
@@ -60,6 +52,13 @@ section {
    padding: 20px;
    border-radius: 40px 40px;
  }
+#two{
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   margin-left: 20px;
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+}
  
  .bottom {
    font-size: 12px;

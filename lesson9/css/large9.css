@@ -9,5 +9,16 @@
     footer{
         text-align: center;
     }
+    #one {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+       }
+       #two{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-left: 20px;
+       display: grid;
+      grid-template-columns: 1fr 1fr;
+     }
 
 } /*end large */
