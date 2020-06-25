@@ -37,10 +37,20 @@ nav ul li a{
 footer{
     text-align: center;
 }
-#one {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
    }
+   section {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+}
    #two{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
