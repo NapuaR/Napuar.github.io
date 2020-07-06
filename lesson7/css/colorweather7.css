@@ -68,9 +68,6 @@
       font-size: 17px;
       text-align: center;
   }
-  figure{
-    
-  }
   figure img[data-src]{
     filter: blur(0.2em);
  }
