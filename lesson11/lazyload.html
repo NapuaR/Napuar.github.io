@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <meta name="description" content="Lazy Loading">
+    <link rel="stylesheet" href="css/normalize7.css">
+    <link rel="stylesheet" href="css/imagesl.css">
+</head>
+<body>
+    <h1>Lazy Loading</h1>
+        <picture><img src="images/placeholder1.jpg"  data-src="images/one.jpg" alt="street lamp" class="one">
+        </picture>
+        <picture>
+            <img src="images/placeholder1.jpg" data-src="images/three.jpg" alt="tall building" class="three">
+        </picture>
+        <picture>
+            <img src="images/placeholder1.jpg" data-src="images/four.jpg" alt="nice lady" class="four">
+        </picture>
+        <picture>
+            <img src="images/placeholder1.jpg"data-src="images/five.jpg" alt="bagles for breakfast" class="five">
+        </picture>
+        <picture>
+            <img src="images/placeholder1.jpg"data-src="images/six.jpg" alt="bird house" class="six">
+        </picture>
+    <script src="java/lazyload.js" defer></script>
+</body>
+</html>

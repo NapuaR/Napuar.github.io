@@ -2,34 +2,43 @@ body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
+header{
+  padding: 0 0 1em;
+  text-align: center;
+ 
+}
   h1 {
-    border-radius: 25px;
-    padding: 20px;
-    width: 370px;
-    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    height: auto;
     background-color: #008080;
     color: pink;
     font-family: 'Merriweather', serif;
-    font-size: 20px;
+    font-size: 30px;
+  }
+  picture{
+    background-color: pink;
   }
   img{
-    width: 150px;
+    width: 170px;
     margin-top: 100px;
-    padding: 30px;
+    padding: 50px;
     float: left;
+    box-shadow: 0 0 20px #111;
    
   }
   h2 {
     color: grey;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: 17px;
     text-decoration: underline;
   }
   ul li{
     color: dark grey;
     font-family: "Lucida Console", Courier, monospace;
     font-size: 12px;
-    padding: 5px;
+    padding: 8px;
 }
   a:active {
     color: pink;
@@ -40,9 +49,9 @@ a:hover{
   footer {
     border-radius: 25px;
     padding: 20px;
-    width: 370px;
+    width: 500px;
     height: 50px;
-    background-color: #008080;
+    background-color:#c6c386;;
     color:pink;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;

@@ -4,6 +4,9 @@ body{
      padding: 30px;
      margin: 3px; 
      }
+     .navigation{
+       display: flex;
+     }
      h1 {
         border-radius: 25px;
      padding: 20px;
@@ -46,4 +49,4 @@ body{
        background-color: #008080;
        color: #FFD700;
        font-family: "Times New Roman", Times, serif;
-     }
+     } }
