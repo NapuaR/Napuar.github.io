@@ -1,0 +1,119 @@
+body{
+    background-color: #DDE2E3;
+  }
+  h1{
+    font-family: 'Crete Round', serif;
+    color: #B37C57;
+    font-size: 50px;
+    margin: 30px;
+    text-align: left;
+  }
+  .logo{
+      margin: 30px;
+      padding: 0px;
+      border-radius: 50%;
+      
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C455C;
+    font-family: 'Crete Round', serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .subbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .sub:hover .subbtn {
+    background-color:  #B37C57;
+  }
+  
+  li.sub {
+    display: inline-block;
+  }
+  
+  .content {
+    display: none;
+    position: absolute;
+    background-color: #3C455C;
+    font-family: 'Crete Round', serif;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .content a:hover {background-color: #B37C57;
+  }
+  
+  .sub:hover .content {
+    display: block;
+  }
+   
+  h2,h3{
+    font-family: 'Crete Round', serif;
+    color: #B37C57;
+    font-size: 23px;
+    margin: 30px;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    margin: 30px; 
+    border-radius: 30%;
+    padding-bottom: 0%;
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    color: #3C455C;
+    font-size: 13px;
+    margin: 20px;
+    padding-top: 0%;
+ }
+ label{
+    font-family: 'Raleway', sans-serif;
+    color: #3C455C;
+    margin: 40px;
+   
+   
+ }
+ .button{
+     font-size: 18px;
+     margin: 40px;
+     padding: 4px;
+       
+ }
+ .map{
+    max-width: 100%;
+    margin: 20px; 
+    border-radius: 3%;
+    padding-bottom: 0%;
+ }
+ .comment{
+     padding: 40px;
+ }
+ .bed{
+   display: block;
+   margin: 10px;
+     
+
+ }

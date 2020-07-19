@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Raleway&display=swap" rel="stylesheet">
+<header>
+    <h1>Temple Suites</h1>
+    <img src="image/logo.jpg" class="logo" alt="logo for site">
+   
+</header>
+
+<body>
+    <ul class="change">
+        <li><a href="home.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+         <li class="sub">
+      <a href="javascript:void(0)" class="subbtn">Services</a>
+      <div class="content">
+        <a href="reception.html">Reception</a>
+        <a href="templem.html">Temple Missionaries</a>   
+      </div>
+  </ul>
+  <h2>Make a Reservation Today!</h2>
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Location:</label>
+        <input type="text" id="loname" name="loname"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <input type="submit" value="Submit">
+        <label for="lname">Number of Rooms:</label>
+        <input type="text" id="rname" name="rname"><br><br>
+        <label for="lname">Types of Rooms:</label>
+        <input class="bed" type="checkbox" id="trooms" name="trooms" value="room">
+        <label for="trooms">Single</label><br>
+        <input class="bed" type="checkbox" id="trooms" name="trooms" value="room">
+        <label for="trooms">Double</label><br>
+        <input class="bed" type="checkbox" id="trooms" name="trooms" value="room">
+        <label for="trooms">Triple</label><br>
+        <label for="lname">Email:</label>
+        <input type="text" id="ename" name="ename"><br><br>
+        <label for="lname">Phone:</label>
+        <input type="text" id="pname" name="pname"><br><br>
+        <label for="lname">State/Country:</label>
+        <input type="text" id="hname" name="hname"><br><br>
+        <label for="lname">Comments:</label>
+        <input class="comment" type="text" id="cname" name="cname" required><br><br>
+        <input class="button" type="submit" value="Submit">
+      </form>
+    <footer>
+
+    </footer>
+</body>
+</html>
