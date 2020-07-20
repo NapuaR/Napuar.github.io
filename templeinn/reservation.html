@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/medium.css">
     <link rel="stylesheet" type="text/css" href="css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Raleway&display=swap" rel="stylesheet">
-<header>
-    <h1>Temple Suites</h1>
-    <img src="image/logo.jpg" class="logo" alt="logo for site">
-   
-</header>
+    <header>
+      <img src="image/logo.jpg" class="logo" alt="logo for site">
+      <h1>Temple Suites</h1>
+     
+  </header>
 
 <body>
     <ul class="change">
@@ -29,18 +29,18 @@
       </div>
   </ul>
   <h2>Make a Reservation Today!</h2>
-    <form action="/action_page.php" method="get">
+  <form method="GET" action="thanks.html">
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="fname" name="fname" title="five or more characters" required><br><br>
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
+        <input type="text" id="lname" name="lname" title="five or more characters" required><br><br>
         <label for="lname">Location:</label>
-        <input type="text" id="loname" name="loname"><br><br>
+        <input type="text" id="loname" name="loname" title="five or more characters" required><br><br>
         <label for="date">Date:</label>
         <input type="date" id="date" name="date">
         <input type="submit" value="Submit">
         <label for="lname">Number of Rooms:</label>
-        <input type="text" id="rname" name="rname"><br><br>
+        <input type="text" id="rname" name="rname" title="one or two characters" required><br><br>
         <label for="lname">Types of Rooms:</label>
         <input class="bed" type="checkbox" id="trooms" name="trooms" value="room">
         <label for="trooms">Single</label><br>
@@ -51,15 +51,17 @@
         <label for="lname">Email:</label>
         <input type="text" id="ename" name="ename"><br><br>
         <label for="lname">Phone:</label>
-        <input type="text" id="pname" name="pname"><br><br>
+        <input type="text" id="pname" name="pname" title="five or more characters" required><br><br>
         <label for="lname">State/Country:</label>
-        <input type="text" id="hname" name="hname"><br><br>
+        <input type="text" id="hname" name="hname" title="five or more characters" required><br><br>
         <label for="lname">Comments:</label>
         <input class="comment" type="text" id="cname" name="cname" required><br><br>
         <input class="button" type="submit" value="Submit">
       </form>
-    <footer>
-
+      <footer>
+        <img src="image/social-media-icons.png" alt="social-media-icons">
+        <p>Napua Roberts | Temple Inn Suites | Spring2020</p>
+        <a href="resources.html">Resources</a>
     </footer>
 </body>
 </html>

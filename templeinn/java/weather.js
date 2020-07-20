@@ -1,0 +1,1 @@
+const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=c0c2c2b0fb7711c72882c8065c22ef36"
