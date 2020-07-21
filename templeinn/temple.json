@@ -1,0 +1,54 @@
+{
+  "temples": [
+    {
+      "name": "Anchorage Alaska",
+      "address": "1361 Brayton Dr Anchorage AK 99516 United States",
+      "telephone": "(1) 907-348-7890",
+      "services": "No clothing rental available, no cafeteria, no patron housing, no distribution center nearby",
+      "ordinances schedule":"Live sealing only",
+      "session schedule":"Appointments must be scheduled several weeks in advance",
+      "announced": "4 October 1997",
+      "groundbreaking": "17 April 1998",
+      "dedicated": "9 January 1999",
+      "rededicated": "8 February 2004",
+      "imageurl": "https://assets.ldscdn.org/22/b3/22b36eeb6bcf2bb8f9f23a905f1434599ee6b4f4/anchorage_alaska_temple_lds.jpeg"
+    },
+    {
+      "name": "Bangkok Thailand Temple",
+      "address": "n/a",
+      "telephone": "n/a",
+      "services": "n/a",
+      "ordinances schedule":"n/a",
+      "session schedule":"n/a",
+      "temple schedule": "Closed for construction",
+      "announced": "5 April 2015",
+      "groundbreaking": "26 January 2019",
+      "dedicated": "n/a",
+      "imageurl": "https://assets.ldscdn.org/54/39/54398f27a4c0033127e63406ae32027fe3011d87/bangkok_thailand_temple.png"
+    },
+    {
+      "name": "Detroit Michigan Temple",
+      "address": "37425 Woodward Ave Bloomfield hills MI 48304 United States",
+      "telephone": "(1) 248-593-0690",
+      "services": "No clothing rental available, no cafeteria, no patron housing, no distribution center nearby",
+      "ordinances schedule":"Live sealing only",
+      "session schedule":"Appointments must be scheduled several weeks in advance",
+      "announced": "10 August 1998",
+      "groundbreaking": "10 October 1998",
+      "dedicated": "23 October 1999",
+      "imageurl": "https://assets.ldscdn.org/6e/16/6e16c01b8b646faeefbef94393746054d090c717/detroit_temple_lds.jpeg"
+    },
+    {
+      "name": "Madrid Spain Temple",
+      "address": "Cale Del Templo No 2 Madrid 28030 Madrid Spain",
+      "telephone": "(34) 91-214-2607",
+      "services": "No clothing rental available, no cafeteria, no patron housing, distribution center nearby",
+      "ordinances schedule":"Live sealing only",
+      "session schedule":"Appointments must be scheduled several weeks in advance",
+      "announced": "4 April 1993",
+      "groundbreaking": "11 June 1996",
+      "dedicated": "19 March 1999",
+      "imageurl": "https://assets.ldscdn.org/80/5d/805d70b4606a3a2220b2291c80e954b86a8ee94b/madrid_spain_temple_lds.jpeg"
+    }
+]
+}

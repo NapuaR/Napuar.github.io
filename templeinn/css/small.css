@@ -1,21 +1,32 @@
+/* For mobile view first */
+@media only screen and (min-width: 300px) {
+
+}
+*{
+  box-sizing: border-box;
+}
 body{
     background-color: #DDE2E3;
+    display: grid;
+    grid: 150px / auto; 
   }
   h1{
     font-family: 'Crete Round', serif;
     color: #B37C57;
-    font-size: 50px;
-    margin: 30px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 80px;
     text-align: left;
   }
   .logo{
+      display: block;
       margin: 30px;
       padding: 0px;
       border-radius: 50%;
       
   }
   
-  ul {
+  .change {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -73,14 +84,17 @@ body{
     font-family: 'Crete Round', serif;
     color: #B37C57;
     font-size: 23px;
+    padding: 40px;
     margin: 30px;
   }
   img{
     max-width: 100%;
     height: auto;
     margin: 30px; 
-    border-radius: 30%;
+    border-radius: 20%;
     padding-bottom: 0%;
+    border: 5px solid grey;
+    
   }
   p {
     font-family: 'Raleway', sans-serif;
@@ -114,6 +128,15 @@ body{
  .bed{
    display: block;
    margin: 10px;
-     
-
+ }
+ .ss{
+   color: #3C455C;
+   font-family: 'Raleway', sans-serif;
+   margin: 20px;
+   padding: 4px;
+   text-align: left;
+ }
+ .food{
+   list-style: none;
+   font-size: 20px;
  }

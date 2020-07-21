@@ -1,0 +1,39 @@
+/*For Medium Screen Next*/
+@media only screen and (min-width: 600px) {
+
+}
+h1{
+    font-family: 'Crete Round', serif;
+    color: #B37C57;
+    font-size: 40px;
+    margin: 0px;
+    padding: 4px;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  .change {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C455C;
+    font-family: 'Crete Round', serif;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    margin: 30px; 
+    border-radius: 10%;
+    padding-bottom: 0%;
+    border: 5px solid grey;
+  }
+  .column{
+    
+  }
+  li a, .subbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
